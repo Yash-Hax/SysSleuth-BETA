@@ -1,5 +1,5 @@
 #!/bin/bash
-
+figlet "YASH HAX"
 # Get version and age of Ubuntu system
 version=$(lsb_release -a)
 age=$(date -d "$(stat -c %y /etc/lsb-release | cut -d' ' -f1)" +"%Y-%m-%d")
